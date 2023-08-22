@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex">
+        <div class="picture">
+            <div class="logo">
+                <img src="./logo-g8230969e6_640.png" alt="logo">
+                <h2>SignUp</h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <p>This is not a real online service! aut similique at dolorem vitae incidunt exercitationem quisquam. Mollitia minus, sunt debitis veniam reiciendis recusandae illo sapiente deleniti.</p>
+                <p>Sign up now to get started</p>
+                <p class="you">You know you want to</p>
+            </div>
+            <br>
+            <div class="main">
+                <h3>Let's do this!</h3>
+            <!-- create a form with 6 inputs first name ,last name ,email , phone number,password, confirm password -->
+            <div class="form">
+                <form action="signup.php" method="POST">
+                    <div class="flexes">
+                        <div class="input">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                        </div>
+                        <div class="input">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="flexes">
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="input">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="flexes">
+                        <div class="input">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Password" required>
+                        </div>
+                        <div class="input">
+                            <label for="cpassword">Confirm Password</label>
+                            <input type="password" name="cpassword" id="cpassword" placeholder="Confirm Password" required>
+                        </div>
+                    </div>
+                    <br>
+                    <button>Create Account</button>
+                </form>
+            </div>
+            </div>
+            <br>
+            <div class="footer">
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
